@@ -22,6 +22,5 @@ jobs:
       run: |
         git config --global user.name 'mllejezebel'
         git config --global user.email 'me@jezebel.dev'
-	git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         npm run deploy
-
