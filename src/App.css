@@ -1,0 +1,22 @@
+.App {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  padding: 2rem;
+  font-family: Helvetica, serif;
+  background: hsl(190deg 30% 96.08%);
+}
+
+main {
+  padding: 2rem;
+  background: #ffffff;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: hsl(190deg 30% 96.08%);;
+}
