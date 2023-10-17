@@ -10,6 +10,7 @@ const App = () => {
   const [view, setView] = useState('home');
 
   const navigate = (goto) => {
+    window.scrollTo(0, 0);
     setView(goto);
   };
 
