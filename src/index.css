@@ -15,19 +15,23 @@ code {
 @font-face {
   font-family: 'PixelifySans';
   src: local('PixelifySans'), url(./fonts/pixelifysans/PixelifySans[wght].ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Assistant';
   src: local('Assistant'), url(./fonts/assistant/Assistant[wght].ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Caveat';
   src: local('Caveat'), url(./fonts/caveat/Caveat[wght].ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Lato';
   src: local('Lato'), url(./fonts/lato/Lato-Regular.ttf) format('truetype');
+  font-display: swap;
 }
