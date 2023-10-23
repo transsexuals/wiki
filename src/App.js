@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useState} from 'react';
 import Panel from './jsx/panel';
+import logo from './logo.svg';
 
 /**
  * App - the App.
@@ -28,8 +29,9 @@ const App = () => {
           Together, we can bridge gaps, dispel myths, and create a more inclusive and accepting world for all.
           Join us on this path of discovery and transformation.
         </p>
-        <p>
-          <a href='https://discord.gg/TqpbYbXJDh'>
+        <p style={{display: 'flex', alignItems: 'center'}}>
+          <img src={logo} width={'100px'} height={'100px'} alt={'logo'}/>
+          <a href='https://discord.gg/TqpbYbXJDh' style={{padding: '20px'}}>
             Discord server invite
           </a>
         </p>
